@@ -1,5 +1,6 @@
-mod user_client;
-mod alxmq_client;
+pub mod user_client;
+pub mod alxmq_client;
+mod error;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
